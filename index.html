@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="flat-lender">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+	<div ng-controller="StoreCtrl as store">
+		<h1>{{store.product.name}}</h1>
+		<h2>{{store.product.price}}</h2>
+		<div class="h1">{{store.product.description}}</div>
+	</div>
+<!-- 
+	<script src="js/bootstrap.min.js" type="text/javascript"></script> -->
+	<script src="js/angular.min.js" type="text/javascript"></script>
+	<script src="js/flat-lender.js" type="text/javascript"></script>
+</body>
+</html>
